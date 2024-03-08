@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu Land</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contacts</a>
+            <a href="https://santuprof.github.io/my-self/">Info</a>
+        </nav>
+        
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="int.gif">
+                <div class="content">
+                    <div class="author">SOHAM</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">JUJUTSU LAND</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        Jujutsu Kaisen" is a dynamic anime that follows Yuji Itadori, a high school student thrust into a world of curses and supernatural battles. When he consumes a cursed object to save his friends, Yuji inherits immense power and joins the Tokyo Metropolitan Jujutsu Technical High School. Alongside skilled sorcerers, he confronts malevolent curses threatening the world. The anime seamlessly blends intense action, humor, and profound character development, captivating audiences with its compelling narrative and visually stunning animation.
+                    </div>
+                    <div class="buttons">
+                        <button id="play">Play The Music</button>
+                        <script>
+                            let play = document.getElementById("play");
+                            function playMusic() {
+                                let audio = new Audio("audio.mp3");
+                                audio.play()
+                            }
+                        play.addEventListener("click", playMusic)
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="sukuna.gif">
+                <div class="content">
+                    <div class="author">SOHAM</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">SUKUNA</div>
+                    <div class="des">
+                        Sukuna, in "Jujutsu Kaisen," is a legendary and malevolent Curse, also known as Ryomen Sukuna. Revered as the King of Curses, Sukuna was a formidable sorcerer who, after his death, became a collection of cursed fingers with immense power. Each finger possesses a fraction of Sukuna's strength. Yuji Itadori inadvertently absorbs one of these fingers, leading to a complex and perilous relationship between them. Sukuna's presence adds a constant layer of danger and intrigue to the anime, as his malevolent essence influences the unfolding events and the battles within the supernatural world.
+                    </div>
+                    <div class="buttons">
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="gojo.gif">
+                <div class="content">
+                    <div class="author">SOHAM</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">GOJO SATORU</div>
+                    <div class="des">
+                        Satoru Gojo, in "Jujutsu Kaisen," is a charismatic and overwhelmingly powerful Jujutsu sorcerer. Serving as a teacher at Tokyo Metropolitan Jujutsu Technical High School, Gojo is known for his exceptional combat skills and a unique technique called Limitless Cursed Technique. His carefree demeanor hides a strategic mind, making him a formidable force against curses. Gojo plays a crucial role in guiding protagonist Yuji Itadori, providing comic relief with his playful personality while demonstrating unmatched strength. His enigmatic abilities and unwavering dedication to protecting humanity make him a standout character in the series.
+                    </div>
+                    <div class="buttons">
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="itadori.gif">
+                <div class="content">
+                    <div class="author">SOHAM</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">YUJI ITADORI</div>
+                    <div class="des">
+                        Itadori Yuji, the main protagonist of "Jujutsu Kaisen," is a high school student with exceptional physical abilities. After a chance encounter with cursed objects, he becomes entangled in the dangerous world of curses. When his friends inadvertently unleash a Curse, Yuji consumes a cursed finger, gaining extraordinary powers. Despite his initially laid-back demeanor, Yuji's determination to protect others and innate strength drive him to enroll in Tokyo Metropolitan Jujutsu Technical High School. His journey is marked by personal growth, camaraderie, and confronting malevolent curses, adding depth and relatability to the anime's narrative.
+                    </div>
+                    <div class="buttons">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="main_wallpaper.jpg">
+                <div class="content">
+                    <div class="title">
+                        Jujutsu Land
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="sukuna_wallpaper.jpg">
+                <div class="content">
+                    <div class="title">
+                        Sukuna
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="gojo_wallpaper.jpg">
+                <div class="content">
+                    <div class="title">
+                        Gojo Satoru
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="itadori_wallpaper.jpg">
+                <div class="content">
+                    <div class="title">
+                        Yuji Itadori
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
